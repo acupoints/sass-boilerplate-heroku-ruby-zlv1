@@ -4,3 +4,51 @@
 
 //@import "./partials/normalize";
 // Organize your code here
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e9ecef;
+}
+
+html, body {
+    display: flex;
+    min-height: 100%;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 1.30769231;
+}
+
+.App {
+    display: flex;
+    min-height: 100%;
+    .main {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    text-align: left;
+}
+
+.sly-d3card {
+    padding: 4px;
+}
+
+// 97.2307692/1560*1280
+// 79.77909267692309
+
+// 97.2307692/1560*982
+// 61.20552266307693
+
+// -- shadow-md
+// 97.2307692/1560*892
+// 55.59605520923077
+// -- shadow-sm
+// 97.2307692/1560*705
+// 43.94082838846154
+// -- shadow-xs
+// 97.2307692/1560*586
+// 36.52386586615385
+

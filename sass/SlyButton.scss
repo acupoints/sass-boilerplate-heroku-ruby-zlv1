@@ -40,10 +40,16 @@
         user-select: none;
         transition: background-color .1s ease-in-out;
     }
+    &.stretch {
+        flex: 1;
+    }
 }
 .sly-button-container {
-    margin: 4px;
+    // margin: 4px;
+    padding: 4px;
     // display: inline-block;
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }

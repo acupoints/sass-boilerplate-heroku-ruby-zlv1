@@ -36,8 +36,17 @@ html, body {
     padding: 4px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+// To limit the maximum width
 // 97.2307692/1560*1280
 // 79.77909267692309
+
+// To move the menu horizontally
+// 97.2307692/1560*1345
+// 83.83037472692308
 
 // 97.2307692/1560*982
 // 61.20552266307693

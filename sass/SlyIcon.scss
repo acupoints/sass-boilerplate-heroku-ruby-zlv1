@@ -9,6 +9,7 @@
     // padding: .8em;
     padding: .35rem;
     border: 1px solid transparent;
+    // border: 1px dashed rgb(89, 2, 151);
     border-radius: 3px;
     outline: none;
     font-family: inherit;
@@ -44,8 +45,11 @@
     }
 }
 .sly-icon-container {
-    margin: 4px;
+    // margin: 4px;
+    padding: 4px;
     // display: inline-block;
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
